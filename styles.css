@@ -1,0 +1,184 @@
+/* main properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    text-align: center;
+    padding: 0px 40px;
+    max-width: 1200px;
+}
+
+/* headings */
+
+h1, h2, h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+/* header */
+
+header {
+    padding: 10px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+/* logo */
+
+#logo {
+    height: 50px;
+}
+
+/* nav */
+
+nav {
+    float: right;
+    display: flex;
+    width: 400px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/* hero section */
+
+.hero {
+    height: 700px;
+    margin-top: 69px;
+    display: flex;
+    background-image: url('img-mission-background.jpg');
+    align-items: center;
+    margin-bottom: 69px;
+}
+
+.hero .mission {
+    width: 1200px;
+    background-color: black;
+}
+
+/* tea of the month section */
+
+
+.random {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.gallery {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    padding: 10px;
+}
+
+#fallberry {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#spicedrum {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#donuts {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#myrtle {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#bedford {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+/* locations section */
+
+.locations {
+    height: 500px;
+    background-image: url('img-locations-background.jpg');
+    margin-top: 69px;
+}
+
+.locations h2 {
+    padding-top: 69px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blackbox {
+    background-color: black;
+    margin: 0px 20px;
+    padding: 0px 10px 0px 10px;
+    width: 300px;
+    opacity: 1;
+}
+
+.blackbox p {
+    margin-bottom: 1.5rem;
+}
+
+/* contact section */
+
+.contact {
+    height: 200px;
+}
+
+.contact h2,h5 {
+    margin-bottom: 30px;
+}
+
+/* footer */
+
+footer h5 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
